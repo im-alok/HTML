@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table-span</title>
+    <style>
+        table,td,tr,th{
+            border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Creating Sugar Level chart-->
+    <table>
+        <caption><strong>Suger Level</strong></caption>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting Value</td>
+            <td>After Eating</td>
+           
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Heatlth</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less Than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabets</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+    <hr><hr>
+
+    <!--Creating Time Table-->
+    <table>
+        <caption><b>TimeTable</b></caption>
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2"> Schedule</td>
+            <td rowspan="2">Topic</td>
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td> 
+            <td rowspan="2">8:00am</td>
+            <td rowspan="2">5:00pm</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Validity:DTD and relax NG</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Tuesday</td> 
+            <td>8:00am</td>
+            <td>11:00am</td>
+            <td rowspan="2">Xpath</td>
+        </tr>
+        <tr>
+            <td>11:00am</td>
+            <td>02:00pm</td>
+        </tr>
+        <tr>
+            <td>02:00pm</td>
+            <td>05:00pm</td>
+            <td rowspan="1">XSL transformation</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>08:00am</td>
+            <td>12:00pm</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+    <hr><hr>
+    <table>
+        <caption>Student's Marks</caption>
+        <tr>
+            <td>ID</td>
+            <td>name</td>
+            <td>Subject</td>
+            <td>marks</td>
+        </tr>
+        <tr>
+            <td rowspan="3">1</td>
+            <td rowspan="3">David</td>
+            <td>Maths</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td rowspan="3">2</td>
+            <td rowspan="3">Alex</td>   
+            <td>Maths</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <hr><hr>
+    <table>
+        <tr>
+            <td colspan="6">Time Table</td>
+        </tr>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Ans</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Ans</td>
+        </tr>
+        <tr>
+            <td colspan="5">LUNCH</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+            <td>Computers</td>
+            <td>Maths</td>
+            <td>Computers</td>
+            <td>Maths</td>
+        </tr>
+    </table>
+    <hr><hr>
+    
+    
+</body>
+</html>
